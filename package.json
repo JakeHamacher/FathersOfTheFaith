@@ -34,7 +34,7 @@
     "@vaadin/grid": "24.3.6",
     "@vaadin/grid-pro": "24.3.6",
     "@vaadin/horizontal-layout": "24.3.6",
-    "@vaadin/icon": "24.3.6",
+    "@vaadin/icon": "24.6.5",
     "@vaadin/icons": "24.3.6",
     "@vaadin/input-container": "24.3.6",
     "@vaadin/integer-field": "24.3.6",
