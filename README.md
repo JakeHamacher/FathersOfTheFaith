@@ -1,18 +1,28 @@
-# My App
+# ChurchFatherArchive Web Application
 
-This project can be used as a starting point to create your own Vaadin application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+## Project Overview
+The **ChurchFatherArchive** web application is a project designed to provide an online archive of documents written by the Church Fathers. The application allows users to search, sort, and filter documents based on various criteria, including author, scripture references, and century. It was developed as a web application using **Vaadin** for the user interface and **Maven** for project management and dependency management.
 
-## Running the application
+The application is designed to be deployed using **Docker** for containerization and hosted on **Google Cloud** for scalability and reliability.
 
-The project is a standard Maven project. To run it from the command line,
-type `mvnw` (Windows), or `./mvnw` (Mac & Linux), then open
-http://localhost:8080 in your browser.
+## Key Technologies Used
+- **Vaadin**: A popular Java framework for building modern web applications with a rich user interface. Vaadin was used for both the frontend and backend of this application.
+- **Maven**: A build automation tool used to manage project dependencies, build lifecycle, and deployment tasks.
+- **Docker**: Containerization technology used to package the application, ensuring it runs consistently across different environments.
+- **Google Cloud**: A cloud platform used to deploy the application, making it accessible online.
 
-You can also import the project to your IDE of choice as you would with any
-Maven project. Read more on [how to import Vaadin projects to different IDEs](https://vaadin.com/docs/latest/guide/step-by-step/importing) (Eclipse, IntelliJ IDEA, NetBeans, and VS Code).
+## Features
+- **Search Functionality**: Allows users to search for documents based on keywords, including author names, scripture references, and more.
+- **Sorting and Filtering**: Users can sort documents by author, document name, or century, and filter by scripture references and authors.
+- **Web-Based Interface**: Built with Vaadin, providing an intuitive and user-friendly interface for interacting with the document archive.
 
-## Deploying to Production
+## How to Access the Web Application
+The ChurchFatherArchive web application is deployed and accessible at the following URL:
+[fathersofthefaith.org](https://fathersofthefaith.org/)
+
+Simply navigate to the link in your web browser to begin using the application.
+
+Alternatively to run it locally,
 
 To create a production build, call `mvnw clean package -Pproduction` (Windows),
 or `./mvnw clean package -Pproduction` (Mac & Linux).
@@ -22,24 +32,17 @@ ready to be deployed. The file can be found in the `target` folder after the bui
 Once the JAR file is built, you can run it using
 `java -jar target/myapp-1.0-SNAPSHOT.jar`
 
-## Project structure
+## Contributing
 
-- `MainLayout.java` in `src/main/java` contains the navigation setup (i.e., the
-  side/top bar and the main menu). This setup uses
-  [App Layout](https://vaadin.com/docs/components/app-layout).
-- `views` package in `src/main/java` contains the server-side Java views of your application.
-- `views` folder in `frontend/` contains the client-side JavaScript views of your application.
-- `themes` folder in `frontend/` contains the custom CSS styles.
+This project was created for academic purposes, but contributions are welcome! If you would like to contribute to improving the ChurchFatherArchive application, please follow these steps:
 
-## Useful links
+1. Fork the repository.
+2. Create a new branch.
+3. Commit your changes.
+4. Push your changes to your forked repository.
+5. Open a pull request to merge your changes.
 
-- Read the documentation at [vaadin.com/docs](https://vaadin.com/docs).
-- Follow the tutorial at [vaadin.com/docs/latest/tutorial/overview](https://vaadin.com/docs/latest/tutorial/overview).
-- Create new projects at [start.vaadin.com](https://start.vaadin.com/).
-- Search UI components and their usage examples at [vaadin.com/docs/latest/components](https://vaadin.com/docs/latest/components).
-- View use case applications that demonstrate Vaadin capabilities at [vaadin.com/examples-and-demos](https://vaadin.com/examples-and-demos).
-- Build any UI without custom CSS by discovering Vaadin's set of [CSS utility classes](https://vaadin.com/docs/styling/lumo/utility-classes). 
-- Find a collection of solutions to common use cases at [cookbook.vaadin.com](https://cookbook.vaadin.com/).
-- Find add-ons at [vaadin.com/directory](https://vaadin.com/directory).
-- Ask questions on [Stack Overflow](https://stackoverflow.com/questions/tagged/vaadin) or join our [Discord channel](https://discord.gg/MYFq5RTbBn).
-- Report issues, create pull requests in [GitHub](https://github.com/vaadin).
+## Acknowledgements
+
+- **Nave Security**: For conducting external penetration testing and stress testing of the application to ensure its security and reliability.
+- **CCEL.org**: For providing the downloadable files of Church Father writings
